@@ -24,6 +24,9 @@ const App = () => {
         <WebView
           source={{ uri: 'https://demov4.revieve.com' }}
           automaticallyAdjustContentInsets={false}
+          geolocationEnabled={true}
+          javaScriptEnabled={true}
+          allowsInlineMediaPlayback={true}
         />
       </View>
     </SafeAreaView>
