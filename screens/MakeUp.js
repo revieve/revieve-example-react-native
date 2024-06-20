@@ -109,6 +109,7 @@ export function MakeUp() {
           }}
           style={{ height: "100%", width: "100%" }}
           onMessage={messageHandler}
+          allowsInlineMediaPlayback={true}
         />
       </View>
       <View style={styles.controls}>
